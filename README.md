@@ -24,11 +24,11 @@ An expert React Native mobile application for managing menus in restaurants. Use
 
 ### Filter Tab
 - **Smart Filtering**: Sort menu items according to the type of course -
-- 
+  
 -  **Result Counter**: View the number of items that meet your filter criteria.
--  
+  
 -  **Clear Display**: See the filtered results in a neat card layout.
--  
+   
 -   **Quick Reset**: Simply press the "All" button to reset the filters.
 
 ## Getting Started
@@ -68,7 +68,7 @@ An expert React Native mobile application for managing menus in restaurants. Use
    - Or press `a` for Android emulator
    - Or press `i` for iOS simulator
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Adding Menu Items
 
