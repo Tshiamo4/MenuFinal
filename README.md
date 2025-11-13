@@ -1,28 +1,37 @@
 # TasteHub - Menu Management Application
 
-A professional React Native mobile application for restaurant menu management. TasteHub allows users to create, manage, filter, and analyze menu items with ease.
+An expert React Native mobile application for managing menus in restaurants. Users can easily create, manage, filter, and analyze menu items with TasteHub.
 
-## 📱 Features
+## Features
 
 ### Home Tab
-- **Dashboard Overview**: View total menu items at a glance
-- **Price Analytics**: Calculate and display average prices by course type (Starter, Main, Dessert)
-- **Complete Menu Display**: Browse all menu items with detailed information
-- **Real-time Statistics**: Dynamic updates as items are added or removed
+-**Dashboard Overview**: See the entire menu at a glance;
+
+**Price Analytics**: Determine and show the average prices for each course type (Starter, Main, Dessert);
+
+**Complete Menu Display**: Review every menu item with comprehensive details;
+
+**Real-time Statistics**: Update dynamically when items are added or removed.
 
 ### Add Tab
-- **Quick Item Creation**: Add menu items with name, course, description, and price
-- **Course Selection**: Easy-to-use chip buttons for course type selection
-- **Form Validation**: Built-in validation to ensure all fields are completed
-- **Item Management**: View and delete existing items directly from the Add tab
+-**Easy Item Creation**: Include menu items with price, name, course, and description; 
+
+**Course Selection**: Utilize simple chip buttons to select the type of course;
+
+**Form Validation**: Ensure all fields are filled out;
+
+**Item Management**: View and remove existing items straight from the Add tab.
 
 ### Filter Tab
-- **Smart Filtering**: Filter menu items by course type
-- **Result Counter**: See how many items match your filter criteria
-- **Clear Display**: View filtered results in an organized card layout
-- **Quick Reset**: Easy "All" button to reset filters
+- **Smart Filtering**: Sort menu items according to the type of course -
+- 
+-  **Result Counter**: View the number of items that meet your filter criteria.
+-  
+-  **Clear Display**: See the filtered results in a neat card layout.
+-  
+-   **Quick Reset**: Simply press the "All" button to reset the filters.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -99,7 +108,7 @@ A professional React Native mobile application for restaurant menu management. T
 3. View filtered results below
 4. See result count: "Showing X of Y items"
 
-## 🎨 Design Features
+## Design Features
 
 ### Color Scheme
 - **Primary**: `#e74c3c` (Red) - Action buttons and accents
@@ -114,7 +123,7 @@ A professional React Native mobile application for restaurant menu management. T
 - **Chips**: Interactive pill-shaped buttons for selections
 - **Empty States**: Friendly messages with emojis when no data exists
 
-## 📊 Data Structure
+## Data Structure
 
 ### MenuItem Type
 ```typescript
@@ -127,7 +136,7 @@ type MenuItemType = {
 };
 ```
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Built With
 - **React Native** - Mobile framework
@@ -147,7 +156,7 @@ type MenuItemType = {
 - No external state management libraries
 - Simple and efficient data flow
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### App not loading?
 ```bash
@@ -165,14 +174,14 @@ npx expo start --clear
 - Verify price is a positive number
 - Ensure you tapped "Add to Menu" button
 
-## 📱 Platform Support
+## Platform Support
 
-- ✅ iOS
-- ✅ Android
-- ✅ Expo Go
-- ✅ Bare React Native workflow compatible
+-  iOS
+-  Android
+-  Expo Go
+-  Bare React Native workflow compatible
 
-## 🚧 Future Enhancements
+## Future Enhancements
 
 Potential features for future versions:
 - [ ] Data persistence (AsyncStorage/SQLite)
@@ -185,11 +194,11 @@ Potential features for future versions:
 - [ ] Dark mode support
 - [ ] Multi-language support
 
-## 📄 License
+## License
 
 This project is open source and available for educational purposes.
 
-## 👨‍💻 Developer Notes
+## Developer Notes
 
 ### Code Structure
 - Single-file application for simplicity
@@ -209,11 +218,11 @@ You can easily customize:
 - Currency symbol (change "R" to your currency)
 - Layout spacing and sizing
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork, modify, and use this project for your own purposes. Suggestions and improvements are welcome!
 
-## 📞 Support
+## Support
 
 For issues or questions:
 1. Check the Troubleshooting section
